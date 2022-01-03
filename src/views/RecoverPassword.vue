@@ -80,7 +80,7 @@ export default {
             email: this.email,
             newPassword: this.newPasswordConfirm
         }).then(res => {
-            localStorage.setItem("token", res.data.message)
+            localStorage.setItem("token", res.data.token)
             this.$router.push({name: "User"})
         }).catch(err=> this.recoverPasswordError.push(err.response.data.message));
       }

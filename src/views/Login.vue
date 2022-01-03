@@ -217,11 +217,11 @@ export default {
       this.registerError = []
       //senha forte
       const passwordRegex =
-        /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@#])[0-9a-zA-Z$*&@#]{8,}$/;
+        /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
       const passwordTest = passwordRegex.test(this.registerPassword.trim());
       if (!passwordTest) {
         this.disabledButton = true
-        this.passwordError.push("Insira uma senha mais forte")
+        this.passwordError.push("A senha precisa ter no mínimo 8 caracteres, letras maiúsculas, minúsculas e números")
       } else {
         this.disabledButton = false
         this.passwordError = []
