@@ -10,7 +10,7 @@
         name="password"
         id="password-cadastro"
         v-model="newPassword"
-        @keyup="validatePassword"
+        @blur="validatePassword"
         required
       />
       <span :class="passwordError.length > 0 ? 'error' : ''"></span>
@@ -21,7 +21,7 @@
         name="password2"
         id="password-cadastro-2"
         v-model="newPasswordConfirm"
-        @keyup="confirmPassword"
+        @blur="confirmPassword"
         required
       />
       <span :class="newPasswordConfirmError.length > 0 ? 'error' : ''"></span>
