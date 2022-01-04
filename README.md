@@ -37,3 +37,9 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
+```
+
+<br/>
+Baixe o <a href="https://git-scm.com/">GIT</a>, <a href="https://nodejs.org/en/">NodeJS</a> e <a href="https://cli.vuejs.org/">Vue CLI</a> na sua máquina.
+<br/><br/>
+<b>Autor:</b> <a href="https://beacons.ai/danvinicius">Daniel Vinícius</a>
