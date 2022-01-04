@@ -49,7 +49,7 @@
               placeholder="Email"
               id="email-cadastro"
               v-model="registerEmail"
-              @blur="validateEmail"
+              @keyup="validateEmail"
               required
             />
             <span :class="emailError.length > 0 ? 'error' : ''"></span>
@@ -59,7 +59,7 @@
               placeholder="Escolha uma senha"
               id="password-cadastro"
               v-model="registerPassword"
-              @blur="validatePassword"
+              @keyup="validatePassword"
               required
             />
             <span :class="passwordError.length > 0 ? 'error' : ''"></span>
@@ -69,7 +69,7 @@
               placeholder="Confirme sua senha"
               id="password-cadastro-2"
               v-model="registerPasswordConfirm"
-              @blur="confirmPassword"
+              @keyup="confirmPassword"
               required
             />
             <span :class="passwordConfirmError.length > 0 ? 'error' : ''"></span>

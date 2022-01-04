@@ -10,7 +10,7 @@
         name="password"
         id="password-cadastro"
         v-model="newPassword"
-        @blur="validatePassword"
+        @keyup="validatePassword"
         required
       />
       <span :class="passwordError.length > 0 ? 'error' : ''"></span>
@@ -21,7 +21,7 @@
         name="password2"
         id="password-cadastro-2"
         v-model="newPasswordConfirm"
-        @blur="confirmPassword"
+        @keyup="confirmPassword"
         required
       />
       <span :class="newPasswordConfirmError.length > 0 ? 'error' : ''"></span>
@@ -55,11 +55,11 @@ export default {
       this.registerError = []
       //senha forte
       const passwordRegex =
-        /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@#])[0-9a-zA-Z$*&@#]{8,}$/;
+        /(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}/;
       const passwordTest = passwordRegex.test(this.newPassword.trim());
       if (!passwordTest) {
         this.disabledButton = true
-        this.passwordError.push("Insira uma senha mais forte")
+        this.passwordError.push("A senha precisa ter no mínimo 8 caracteres, letras maiúsculas, minúsculas e números")
       } else {
         this.disabledButton = false
         this.passwordError = []
