@@ -39,7 +39,7 @@
               placeholder="Nome completo"
               id="nome-cadastro"
               v-model="registerName"
-              @keyup="validateName"
+              @blur="validateName"
               required
             />
             <span :class="nameError.length > 0 ? 'error' : ''"></span>
