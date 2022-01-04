@@ -217,7 +217,7 @@ export default {
       this.registerError = []
       //senha forte
       const passwordRegex =
-        /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
+        /(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}/;
       const passwordTest = passwordRegex.test(this.registerPassword.trim());
       if (!passwordTest) {
         this.disabledButton = true
