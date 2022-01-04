@@ -9,8 +9,14 @@ Website de artigos sobre tecnologia feito em VueJS e consumindo a API A4d-backen
     <img align="center" alt="HTML" title="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
     <img align="center" alt="CSS" title="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
     <img align="center" alt="VueJS" title="VueJS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg">
-    
 </div>
+<br/>
+
+## Status do projeto
+<h4> 
+	🚧 A4D 🚀 Em construção... 🚧
+</h4>
+<br/>
 
 ## Demonstração
 <b>Clique <a href="https://a4d-project.herokuapp.com/">aqui</a> para acessar o site</b>
