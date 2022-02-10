@@ -1,7 +1,7 @@
 <img src='a4d_img.png' alt='A4D' title='A4D'>
 
-## Sobre
-Website de artigos sobre tecnologia feito em VueJS e consumindo a API A4d-backend via Axios.
+## About
+Technology articles website made in VueJS and consuming the A4d-backend API via axios.
 <br/>
 
 <div style="display: inline_block"><br>
@@ -12,14 +12,14 @@ Website de artigos sobre tecnologia feito em VueJS e consumindo a API A4d-backen
 </div>
 <br/>
 
-## Status do projeto
+## Project status
 <h4> 
-	🚧 A4D 🚀 Em construção... 🚧
+	🚧 A4D 🚀 Under construction... 🚧
 </h4>
 <br/>
 
-## Demonstração
-<b>Clique <a href="https://a4d-project.herokuapp.com/">aqui</a> para acessar o site</b>
+## The project
+<b>Click <a href="https://a4d-project.herokuapp.com/">here</a> to open the website</b>
 <br/><br/>
 <img src='a4d-gif.gif' alt='A4D' title='A4D'>
 <br/><br/>
@@ -40,6 +40,6 @@ npm run build
 ```
 
 <br/>
-Baixe o <a href="https://git-scm.com/">GIT</a>, <a href="https://nodejs.org/en/">NodeJS</a> e <a href="https://cli.vuejs.org/">Vue CLI</a> na sua máquina.
+Install <a href="https://git-scm.com/">GIT</a>, <a href="https://nodejs.org/en/">NodeJS</a> and <a href="https://cli.vuejs.org/">Vue CLI</a> on your computer.
 <br/><br/>
-<b>Autor:</b> <a href="https://beacons.ai/danvinicius">Daniel Vinícius</a>
+<b>Author:</b> <a href="https://beacons.ai/danvinicius">Daniel Vinícius</a>
